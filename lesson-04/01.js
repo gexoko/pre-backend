@@ -23,4 +23,4 @@ function includesElement(array, element) {
     return obtain;
 }
 
-// console.log(includesElement([10, 20, 30, 40, 50], 1));
+console.log(includesElement([10, 20, 30, 40, 50], 10));
