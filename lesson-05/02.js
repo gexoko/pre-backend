@@ -35,4 +35,7 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updateGallery(gallery, bookName, author) {
+    gallery[bookName] = author;
+}
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
